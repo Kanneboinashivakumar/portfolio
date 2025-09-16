@@ -25,6 +25,7 @@ This is my **personal portfolio website** where I showcase my projects, skills, 
 🔗 [Portfolio (GitHub Pages link coming soon)](#)  
 
 ---
+## 📂 Folder Structure
 portfolio/
 ├── index.html
 ├── style.css
@@ -44,6 +45,3 @@ portfolio/
 ---
 
 ⭐ This repo is part of my developer journey — feel free to check back as I keep improving it!
-
-
-## 📂 Folder Structure
