@@ -1,0 +1,10 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore local history
+.history/
+.lh/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
