@@ -39,8 +39,8 @@ portfolio/
 ## 📬 Contact
 👤 **Shiva Kumar**  
 🔗 GitHub: [Kanneboinashivakumar](https://github.com/Kanneboinashivakumar)  
-📧 Email: your-email@example.com  
-💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-linkedin)  
+📧 Email: 23WJ1A6736@gniindia.org 
+💼 LinkedIn:(www.linkedin.com/in/shiva-kumar-kannaeboina-b6a844298)  
 
 ---
 
