@@ -27,15 +27,20 @@ JavaScript
 text
 portfolio/
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── /assets
+
 └── README.md
 
 📬 Contact
 👤 Shiva Kumar
 🔗 GitHub: Kanneboinashivakumar
 📧 Email: 23WJ1A6736@gniindia.org
+
 💼 LinkedIn: www.linkedin.com/in/shiva-kumar-kannaeboina-b6a844298
 
 ⭐ This repo is part of my developer journey — feel free to check back as I keep improving it!
