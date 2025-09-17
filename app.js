@@ -123,7 +123,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-
         // Close sidebar with Escape key
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && sideBar.classList.contains('open-sidebar')) {
@@ -146,6 +145,46 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
+
+    // ---------------------------
+    // Formspree AJAX Submission
+    // ---------------------------
+    const contactForm = document.getElementById("contactForm");
+    const formMessage = document.getElementById("formMessage");
+
+    if (contactForm) {
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const formData = new FormData(contactForm);
+
+            fetch("https://formspree.io/f/xrbawyne", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.ok === true || data.success === true) {
+                        formMessage.style.color = "green";
+                        formMessage.textContent = "✅ Message sent successfully!";
+                        contactForm.reset();
+                        setTimeout(() => formMessage.textContent = "", 5000); // hide after 5s
+                    } else {
+                        formMessage.style.color = "red";
+                        formMessage.textContent = "❌ Oops! Something went wrong.";
+                    }
+                })
+                .catch(error => {
+                    console.error("Form submission error:", error);
+                    formMessage.style.color = "red";
+                    formMessage.textContent = "❌ Oops! Something went wrong.";
+                });
+        });
+    }
+
 
     // Initialize all functionality
     function init() {

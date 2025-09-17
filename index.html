@@ -300,6 +300,7 @@
             </div>
         </section>
 
+        <!-- Updated Contact Section with Formspree -->
         <section id="contact" class="contact-section">
             <h1 class="section-title autoDisplay">Let's Connect 😊</h1>
             <div class="social-box autoBlur">
@@ -317,17 +318,24 @@
             <div class="contact-box autoBlur">
                 <p>Have an idea, a project, or just want to say hi? Let's turn ideas into something awesome together.
                 </p>
-                <p>Full Name</p>
-                <input placeholder="Your Full name" type="full name">
+                <form id="contactForm" action="https://formspree.io/f/xrbawyne" method="POST">
+                    <p>Full Name</p>
+                    <input placeholder="Your Full name" type="text" name="name" required>
 
-                <p>Email Address</p>
-                <input placeholder="Your Email" type="Contact">
+                    <p>Email Address</p>
+                    <input placeholder="Your Email" type="email" name="email" required>
 
-                <p>Your Message</p>
-                <input class="input-message" type="contact" placeholder="share your thoughts...">
+                    <p>Your Message</p>
+                    <textarea class="input-message" name="message" placeholder="Share your thoughts..."
+                        required></textarea>
 
-                <button>Send Message <i class='bx bx-mail-send'></i></button>
+                    <button type="submit">Send Message <i class='bx bx-mail-send'></i></button>
+
+                    <!-- Success / Error message placeholder -->
+                    <p id="formMessage" style="color: green; margin-top: 10px;"></p>
+                </form>
             </div>
+
         </section>
 
         <section class="footer">
