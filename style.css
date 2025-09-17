@@ -1339,8 +1339,7 @@ header ul a:hover {
     }
 }
 
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
 
     /* --- HERO SECTION --- */
     .hero {
@@ -1359,7 +1358,7 @@ header ul a:hover {
         align-items: center;
         text-align: center;
         margin-bottom: 20px;
-        padding-top: 15px;
+        padding-top: 25px;
     }
 
     .hero-info h1 {
@@ -1367,8 +1366,7 @@ header ul a:hover {
         margin-bottom: 12px;
         line-height: 32px;
         order: 1;
-        margin-top: 20px;
-        /* pushes "Hi, I'm Shiva Kumar" a bit lower */
+        margin-top: 40px;
     }
 
     .hero-info-title {
@@ -1428,160 +1426,77 @@ header ul a:hover {
         left: 50%;
     }
 
-
     /* --- ABOUT ME SECTION --- */
     .info-cards {
         display: flex;
         flex-direction: column;
-        gap: 18px;
+        gap: 14px;
         width: 100%;
     }
 
     .card {
-        width: 100%;
-        min-height: 220px;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin-bottom: 12px;
-        padding: 10px;
-        /* added spacing inside */
+        width: 100%;
+        min-height: 180px;
+        margin-bottom: 8px;
+        padding: 12px 10px;
+        /* better inner spacing */
+        background: none;
+        box-sizing: border-box;
     }
 
     .card-content {
+        width: 100%;
         text-align: center;
-        /* keep text centered */
-        padding: 8px 6px;
-        /* spacing so text doesn’t stick */
+        padding: 10px;
+        /* balanced padding */
+        font-size: 13px;
+        line-height: 1.5;
+        word-break: break-word;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .card-content h1 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .card-media-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    .card:nth-child(3),
+    .card:nth-child(4) {
+        flex-direction: column;
+    }
+
+    .card:nth-child(3) .card-media-container,
+    .card:nth-child(4) .card-media-container {
+        margin-top: 15px;
+        height: 150px;
     }
 
     .card-media-container img,
     .card-media-container video {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
         display: block;
         margin: 0 auto;
+        border-radius: 10px;
     }
 
-    /* Time Zone Card (3rd) vertical layout */
-    .card:nth-child(3) {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 18px;
-    }
-
-    .card:nth-child(3) .card-content,
-    .card:nth-child(3) .card-media-container {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .card:nth-child(3) .card-media-container {
-        margin-top: 20px;
-        height: 180px;
-    }
-
-    /* Passion for Coding Card (4th) */
     .card:nth-child(4) {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 18px;
-        width: 100%;
         background: #080020b7;
-        border-radius: 20px;
-        padding: 15px;
+        border-radius: 16px;
+        padding: 12px;
     }
-
-    .card:nth-child(4) .card-content {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-
-    .card:nth-child(4) .card-media-container {
-        width: 100%;
-        height: 180px;
-        margin-top: 20px;
-    }
-
-
-    /* --- SKILLS SECTION --- */
-    .skills-box {
-        flex-direction: column !important;
-        align-items: center;
-        height: auto;
-        gap: 32px;
-        margin-bottom: 40px;
-        padding: 0;
-        margin: 0;
-        position: relative;
-    }
-
-    .skills-video-box {
-        position: static !important;
-        width: 100%;
-        z-index: 0;
-        margin-bottom: 20px;
-    }
-
-    .skills-video {
-        width: 100%;
-        height: 220px !important;
-        z-index: 0;
-        margin-bottom: 8px;
-        opacity: 0.75;
-    }
-
-    .Designer,
-    .coder {
-        position: relative !important;
-        z-index: 2;
-        margin: 0 0 14px 0;
-        max-width: 190px;
-        font-size: 16px;
-        width: 90%;
-        left: 0 !important;
-        right: 0 !important;
-        top: 0 !important;
-        text-align: left;
-        padding: 0 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        background: none;
-    }
-
-    .Designer i,
-    .coder i {
-        margin-bottom: 6px;
-        font-size: 24px;
-    }
-
-    .Designer h1,
-    .coder h1 {
-        font-size: 19px;
-        line-height: 1.2;
-        margin-bottom: 8px;
-        margin-top: 12px;
-        font-weight: 700;
-    }
-
-    .Designer p,
-    .coder p {
-        font-size: 13px;
-        line-height: 1.4;
-        word-break: break-word;
-        margin-bottom: 4px;
-        background: none;
-    }
-
-    .coder {
-        margin-top: 40px !important;
-        align-self: center;
-    }
-
 
     /* --- FOOTER --- */
     .footer {
@@ -1589,53 +1504,29 @@ header ul a:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 10px 10px 15px 10px;
-        gap: 8px;
+        padding: 8px 8px 10px 8px;
+        gap: 2px;
         height: auto;
-        min-height: 60px;
+        min-height: 24px;
         margin-bottom: 0;
         position: relative;
-        background: rgba(255, 255, 255, 0.10);
+        background: rgba(255, 255, 255, 0.08);
+        border-top: 0.5px solid gray;
+        /* slimmer border */
+        width: 100%;
     }
 
     .footer .box-icons {
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 15px;
-        background: transparent;
-        width: 100%;
-    }
-
-    .footer .box-icons a,
-    .footer .box-icons p a {
-        font-size: 22px;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-        color: #72a1de;
-        background: transparent;
-        border: 2px solid #72a1de;
-        margin: 0 6px;
-    }
-
-    .footer .box-icons a:hover {
-        background: #72a1de;
-        color: #fff;
-        box-shadow: 0 0 10px #72a1de;
+        display: none !important;
     }
 
     .footer-text {
-        margin-bottom: 5px;
-        font-size: 14px;
+        font-size: 12px;
         color: lightgray;
         width: 100%;
-        padding-bottom: 6px;
+        padding-bottom: 2px;
+        margin-bottom: 0;
         position: relative;
-        bottom: 0;
         background: none;
     }
 }
