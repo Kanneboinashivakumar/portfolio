@@ -4,6 +4,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 ⚡ Currently in development — mobile responsiveness and improvements are in progress.
 
 ✨ Features (Planned & Completed)
+
 ✅ Clean and simple UI
 
 ✅ Sections for About, Projects, and Contact
@@ -13,6 +14,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 🔄 More interactive project showcases coming soon
 
 🛠️ Tech Stack
+
 HTML5
 
 CSS3
@@ -21,6 +23,7 @@ JavaScript
 
 <!-- Add React/Next.js/Tailwind here later when you integrate them -->
 🚀 Live Demo
+
 🔗 https://kanneboinashivakumar.github.io/portfolio/
 
 📂 Folder Structure
@@ -37,8 +40,11 @@ portfolio/
 └── README.md
 
 📬 Contact
+
 👤 Shiva Kumar
+
 🔗 GitHub: Kanneboinashivakumar
+
 📧 Email: 23WJ1A6736@gniindia.org
 
 💼 LinkedIn: www.linkedin.com/in/shiva-kumar-kannaeboina-b6a844298
