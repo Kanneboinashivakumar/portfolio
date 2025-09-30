@@ -40,17 +40,16 @@ Currently in development — mobile responsiveness and additional improvements a
 ## 📂 Folder Structure
 
 portfolio/
+
 ├── index.html         # Main HTML file for your portfolio
 
 ├── style.css          # Stylesheet for design and layout
 
 ├── script.js          # JavaScript for interactivity
 
-├── /assets            # Folder for images, videos, icons, and other media
+├── images/
 
-│   ├── images/
-
-│   ├── videos/
+├── videos/
 
 └── README.md          # This README file
 
