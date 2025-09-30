@@ -25,9 +25,11 @@ Currently in development — mobile responsiveness and additional improvements a
 
 ## 🎬 Demo Video
 
-[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+<video width="600" controls>
+  <source src="assets/demo.mp4" type="video/mp4" alt="Watch Demo">
+  Your browser does not support the video tag.
+</video>
 
-> Replace `VIDEO_ID` with your YouTube video ID for your portfolio demo.
 
 ---
 
