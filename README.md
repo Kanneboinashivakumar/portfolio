@@ -26,7 +26,7 @@ Currently in development — mobile responsiveness and additional improvements a
 ## 🎬 Demo Video
 
 <video width="600" controls>
-  <source src="assets/demo.mp4" type="video/mp4" alt="Watch Demo">
+  <source src="videos/demo.mp4" type="video/mp4" alt="Watch Demo">
   Your browser does not support the video tag.
 </video>
 
