@@ -1,52 +1,71 @@
-🌐 Personal Portfolio
+# Personal Portfolio - Kanneboina Shiva Kumar
+
 This is my personal portfolio website where I showcase my projects, skills, and journey as a developer.
 
-⚡ Currently in development — mobile responsiveness and improvements are in progress.
+Currently in development — mobile responsiveness and additional improvements are in progress.
 
-✨ Features (Planned & Completed)
+---
 
-✅ Clean and simple UI
+## ✨ Features
 
-✅ Sections for About, Projects, and Contact
+✅ Clean and simple UI  
+✅ Sections for About, Projects, and Contact  
+✅ Mobile-friendly design  
+✅ Interactive project showcases coming soon  
 
-✅ Mobile-friendly design
+---
 
-🔄 More interactive project showcases coming soon
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Frameworks/Libraries:** React.js (planned), Bootstrap (planned)  
+- **Tools & Platforms:** Git, GitHub, VS Code  
 
-HTML5
+---
 
-CSS3
+## 🎬 Demo Video
 
-JavaScript
+[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-<!-- Add React/Next.js/Tailwind here later when you integrate them -->
-🚀 Live Demo
+> Replace `VIDEO_ID` with your YouTube video ID for your portfolio demo.
 
-🔗 https://kanneboinashivakumar.github.io/portfolio/
+---
 
-📂 Folder Structure
-text
+## 🌐 Live Demo
+
+🔗 [View Portfolio](https://kanneboinashivakumar.github.io/portfolio/)
+
+---
+
+## 📂 Folder Structure
+
 portfolio/
-├── index.html
+├── index.html         # Main HTML file for your portfolio
+├── style.css          # Stylesheet for design and layout
+├── script.js          # JavaScript for interactivity
+├── /assets            # Folder for images, videos, icons, and other media
+│   ├── images/
+│   ├── videos/
+└── README.md          # This README file
 
-├── style.css
 
-├── script.js
+---
 
-├── /assets
+## 📬 Contact
 
-└── README.md
+- **Name:** Kanneboina Shiva Kumar  
+- **GitHub:** [Kanneboinashivakumar](https://github.com/Kanneboinashivakumar)  
+- **Email:** 23WJ1A6736@gniindia.org  
+- **LinkedIn:** [Shiva Kumar Kanneboina](https://www.linkedin.com/in/shiva-kumar-kannaeboina-b6a844298)
 
-📬 Contact
+---
 
-👤 Shiva Kumar
+## ⚡ Notes
 
-🔗 GitHub: Kanneboinashivakumar
+This repo is part of my developer journey — I keep improving it as I learn new skills and technologies. Contributions, feedback, and suggestions are welcome!
 
-📧 Email: 23WJ1A6736@gniindia.org
+---
 
-💼 LinkedIn: www.linkedin.com/in/shiva-kumar-kannaeboina-b6a844298
+## 📄 License
 
-⭐ This repo is part of my developer journey — feel free to check back as I keep improving it!
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
